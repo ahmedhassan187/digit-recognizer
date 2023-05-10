@@ -8,3 +8,8 @@ streamlit==0.88.0
 joblib==1.0.1
 Pillow==8.2.0
 scikit_learn==0.24.2
+opencv-python-headless
+Keras==2.3.1
+tensorboard==1.15.0
+tensorflow==1.15.2
+h5py==2.10.0
