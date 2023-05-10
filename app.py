@@ -19,9 +19,3 @@ if uploaded_file is not None:
     plt.imshow(new_image,cmap="gray")
     st.markdown(f"<h1 style='text-align: center; font-size: 48px;'>{number}</h1>", unsafe_allow_html=True)
     st.pyplot(fig)
-    # st.experimental_rerun()
-    # st.image(new_image, caption='Uploaded Image', use_column_width=True)
-
-# Display the image using Streamlit
-# st.write(number)
-
