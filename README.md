@@ -38,11 +38,9 @@ This is a project that recognizes handwritten digits using the LeNet-5 architect
 
 2. The LeNet-5 model will then predict the digit and display the result on the screen.
 
-## Screenshots 
-![Example Image](https://drive.google.com/uc?id=1R4EaH20-HJS674MmVyBLExW9zXvUgbL)
+## Website Link
 
-![Example image](https://drive.google.com/uc?id=1R4EaH20-HJS674MmVyBLExW9zXvUgbL)
-
+[Website](https://ahmedhassan187-digit-recognizer-app-cfxypk.streamlit.app/)
 ## Files
 
 - `app.py`: This is the main file that contains the code for deploying the model using Streamlit.
