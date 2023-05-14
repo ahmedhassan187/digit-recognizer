@@ -1,2 +1,64 @@
-# digit-recognizer
- This project involves deploying a model that recognizes handwritten numbers using the Lenet-5 architecture. The Lenet-5 architecture is a convolutional neural network (CNN) that was introduced in the 1990s and was one of the first CNNs to achieve high accuracy on the MNIST dataset, which is a commonly used benchmark for image classification.
+# Handwritten Digit Recognition using LeNet-5 Architecture and Streamlit
+
+This is a project that recognizes handwritten digits using the LeNet-5 architecture and deploys the model using Streamlit, a popular Python library for building interactive web applications.
+
+## Requirements
+
+- Python 3.x
+- TensorFlow
+- Streamlit
+- Numpy
+- OpenCv
+
+## Installation
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/ahmedhassan187/digit-recognizer
+   ```
+
+2. Install the required packages:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. Run the application:
+
+   ```
+   streamlit run app.py
+   ```
+
+4. Open the URL `http://localhost:8501` in your browser to access the web application.
+
+## Usage
+
+1. Upload a photo of a handwritten digit to the web application.
+
+2. The LeNet-5 model will then predict the digit and display the result on the screen.
+
+## Screenshots 
+![Example Image](https://drive.google.com/uc?id=1R4EaH20-HJS674MmVyBLExW9zXvUgbL)
+
+![Example image](https://drive.google.com/uc?id=1R4EaH20-HJS674MmVyBLExW9zXvUgbL)
+
+## Files
+
+- `app.py`: This is the main file that contains the code for deploying the model using Streamlit.
+
+- `model.ipynb`: This file contains the implementation of the LeNet-5 architecture.
+
+- `Utilites.py`: This file contains the helper functions used for loading and preprocessing the input image.
+
+- `model.h5`: This is the trained model that is used for predicting the digit.
+
+- `requirements.txt`: This file contains the list of required packages and their versions.
+
+## Acknowledgements
+
+This project was made possible thanks to the following resources:
+
+- [MNIST dataset](https://www.tensorflow.org/datasets/catalog/mnist)
+- [LeNet-5 Paper](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)
+- [Streamlit documentation](https://docs.streamlit.io/)
