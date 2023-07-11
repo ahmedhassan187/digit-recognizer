@@ -57,6 +57,6 @@ This is a project that recognizes handwritten digits using the LeNet-5 architect
 
 This project was made possible thanks to the following resources:
 
-- [MNIST dataset](https://www.tensorflow.org/datasets/catalog/mnist)
+- [MNIST dataset Digits](https://www.tensorflow.org/datasets/catalog/mnist)
 - [LeNet-5 Paper](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)
 - [Streamlit documentation](https://docs.streamlit.io/)
