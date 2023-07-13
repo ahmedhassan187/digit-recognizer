@@ -1,4 +1,4 @@
-# Handwritten Digit Recognition using LeNet-5 Architecture and Streamlit
+#the Handwritten Digit Recognition using LeNet-5 Architecture and Streamlit
 
 This is a project that recognizes handwritten digits using the LeNet-5 architecture and deploys the model using Streamlit, a popular Python library for building interactive web applications.
 
